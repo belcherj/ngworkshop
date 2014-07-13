@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "title": "First Post",
+      "body": "Body One"
+    },
+    {
+      "title": "Second Post",
+      "body": "Body Two"
+    },
+    {
+      "title": "Third Post",
+      "body": "Body Three"
+    }
+  ]
+}

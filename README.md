@@ -7,24 +7,12 @@ The workshop is intended to be an introduction to AngularJS and take a person fr
 
 Prerequisites
 -------------
-Node - http://howtonode.org/how-to-install-nodejs
-
-Git - http://git-scm.com/book/en/Getting-Started-Installing-Git
-
-If assistance is needed then a mentor can be provided to help setup your development environment.
+Firefox
 
 AngularJS in a Nutshell - 20 to 30 minutes
 -------------------------------------------------
 
 This talk will explain some of the core concepts of AngularJS through a couple codepens or jsfiddles.  These core concepts to include two-way data binding, $scope, core directives ( ng-repeat).
-
-AngularJS Up and Running - 20 to 30 minutes
--------------------------------------------------
-
-Take the attendees through installing Yeoman and generator-angular-fullstack.  Show a basic HTML page with AngularJS included and show an example from the previous talk. From there create an Angular application using Yo and show the app in the browser.
-
-Yeoman - http://yeoman.io/
-generator-angular-fullstack - https://github.com/DaftMonk/generator-angular-fullstack
 
 AngularJS Controllers, Directives and Filters Ohh My - 20 to 30 minutes
 ------------------------------------------------------------------------------
@@ -35,6 +23,14 @@ AngularJS Layer in some data! - 20 to 30 minutes
 -------------------------------------------------------
 
 Use the app from the last talk and add a service that hits an existing node REST service.  Show how to include the service in a controller.  How to pull down data and how to push it back to the API.
+
+AngularJS Tooling - 20 to 30 minutes
+-------------------------------------------------
+
+Take the attendees through installing Yeoman and generator-angular-fullstack.  Show a basic HTML page with AngularJS included and show an example from the previous talk. From there create an Angular application using Yo and show the app in the browser.
+
+Yeoman - http://yeoman.io/
+angular-generator - https://github.com/yeoman/generator-angular
 
 AngularJS Testing with Karma - 20 to 30 minutes
 ------------------------------------------------------

@@ -1,0 +1,20 @@
+<div ng-include="'views/nav.html'"></div>
+<div class="jumbotron">
+  <h1>Hello World!</h1>
+  <p class="lead">
+    You have an Angular App!
+  </p>
+</div>
+
+<div class="row marketing">
+  {{ lotsOfText | truncateFilter:100 }}
+</div>
+
+<div>
+	<post></post>
+</div>
+
+<div ng-repeat="post in posts">
+	<h1>{{post.title}}</h1>
+	<p>{{post.body}}</p>
+</div>
