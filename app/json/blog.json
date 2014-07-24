@@ -2,15 +2,18 @@
   "data": [
     {
       "title": "First Post",
-      "body": "Body One"
+      "date": "01/02/2014",
+      "body": "Pellentesque feugiat augue vel accumsan venenatis. Aliquam vestibulum, quam vitae cursus consectetur, odio nisl posuere lorem, at faucibus nibh velit et turpis. Ut ullamcorper massa non massa interdum sagittis."
     },
     {
       "title": "Second Post",
-      "body": "Body Two"
+      "date": "03/04/2014",
+      "body": "Etiam interdum felis sed vehicula euismod. Mauris feugiat, ante nec sagittis tristique, dui sapien laoreet lectus, eu venenatis augue diam in orci."
     },
     {
       "title": "Third Post",
-      "body": "Body Three"
+      "date": "05/02/2014",
+      "body": "Vestibulum nisl augue, imperdiet in egestas quis, rutrum sed felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla pulvinar semper mauris, ac viverra nisi viverra eget. Aenean at egestas ligula, eu tincidunt libero."
     }
   ]
 }

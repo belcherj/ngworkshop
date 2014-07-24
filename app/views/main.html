@@ -1,5 +1,6 @@
 <div ng-include="'views/nav.html'"></div>
 <div class="jumbotron">
+  <!-- TODO: MOVE THIS TO THE CONTROLLER -->
   <h1>Hello World!</h1>
   <p class="lead">
     You have an Angular App!
@@ -10,11 +11,17 @@
   {{ lotsOfText | truncateFilter:100 }}
 </div>
 
+<!-- TODO: ADD A MESSAGE HERE -->
+
 <div>
 	<post></post>
 </div>
 
+<!-- TODO: ADD SEARCH FILTER HERE  -->
 <div ng-repeat="post in posts">
 	<h1>{{post.title}}</h1>
+	<p>{{post.date}}</p>
 	<p>{{post.body}}</p>
 </div>
+
+<!-- TODO: ADD FOOTER HERE -->

@@ -3,18 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="vendor/bootstrap.css" />
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body ng-app="libertyjsApp">
     <div class="container" ng-view=""></div>
 
-    <script src="vendor/jquery.js"></script>
+
     <script src="vendor/angular.js"></script>
-    <script src="vendor/json3.js"></script>
-    <script src="vendor/bootstrap.js"></script>
+
     <script src="vendor/angular-route.js"></script>
     <script src="vendor/angular-resource.js"></script>
 
@@ -24,8 +21,10 @@
     <script src="scripts/controllers/nav.js"></script>
     <script src="scripts/controllers/about.js"></script>
 
+    <script src="scripts/directives/footer.js"></script>
     <script src="scripts/directives/post.js"></script>
 
+    <script src="scripts/services/about.js"></script>
     <script src="scripts/services/posts.js"></script>
 
     <script src="scripts/filters/truncateFilter.js"></script>

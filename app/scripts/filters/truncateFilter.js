@@ -1,7 +1,5 @@
-(function(){
-  'use strict';
-
-  angular.module( 'libertyjsApp' ).filter( 'truncateFilter', function () {
+angular.module( 'libertyjsApp' ).filter( 'truncateFilter', 
+  function () {
     return function ( text, length ) {
       if ( text ) {
         var ellipsis = text.length > length ? '...' : '';
@@ -9,6 +7,5 @@
       }
       return text;
     };
-  });
-
-}());
+  }
+);

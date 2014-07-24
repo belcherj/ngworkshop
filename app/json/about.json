@@ -1,0 +1,21 @@
+{
+	"firstName" : "John",
+  "lastName" : "Doe",
+  "avatar" : "images/john-doe.png",
+  "blurb" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper pharetra libero non dictum. Donec id lorem vel est rhoncus interdum at commodo dui. In ultrices, magna sit amet suscipit ornare, lectus dolor vulputate felis, sit amet consectetur arcu massa eget neque. Vivamus justo lorem.",
+  "longBlurb" : "Mauris mattis nisl et elit dignissim, eget pulvinar dolor tempus. Nullam semper lacus vel sem euismod fermentum. Aenean ipsum dui, aliquam interdum ipsum at, tincidunt vulputate risus. Quisque sit amet lectus quam. Mauris purus nunc, commodo varius vehicula et, scelerisque quis nibh. Phasellus tincidunt vitae lacus vitae auctor. Nullam nec dolor nulla. Morbi egestas sem sem, et dictum neque tristique id. Pellentesque tristique tincidunt arcu in accumsan. Etiam eget purus non velit commodo blandit et nec lacus. Cras vehicula dui justo, suscipit mollis justo iaculis vitae. Nulla in ligula fringilla, venenatis justo ut, tempor eros.Fusce dui nibh, fermentum id neque non, pharetra rhoncus ante. Nulla vestibulum neque ut lorem posuere, ut tincidunt neque tempus. Quisque tristique, arcu sed varius porta, nisi tellus eleifend purus, id aliquet libero elit quis nisi. Donec eu scelerisque neque. Etiam facilisis lorem nec turpis porttitor sodales. Morbi justo lectus, molestie vel tortor dignissim, tristique scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam ornare tortor ac commodo porttitor. In a gravida tellus.",
+  "talks" : [
+    {
+      "title" : "AngularJS",
+      "link" : "https://docs.google.com/presentation/d/1ADduFE_RwrrpnNYUgmh6jDVj1hDm12f0aNXP0MQpV_o/present#slide=id.i0"
+    },
+    {
+      "title" : "Psychology of testing",
+      "link" : "https://docs.google.com/presentation/d/1ADduFE_RwrrpnNYUgmh6jDVj1hDm12f0aNXP0MQpV_o/present#slide=id.i0"
+    },
+    {
+      "title" : "Berkeley Angular",
+      "link" : "http://youtu.be/Zv54KovsXvQ"
+    }
+  ]
+}
