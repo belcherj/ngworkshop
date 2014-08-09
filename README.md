@@ -37,3 +37,27 @@ AngularJS Testing with Karma - 20 to 30 minutes
 
 Use the app created in the last talk and write some simple tests against the controllers that were created.  
 
+Using Node
+----------
+This project includes configuration files for using NodeJS, running a server and running the karma tests
+
+Prerequisites
+-------------
+<a href="http://nodejs.org/" target="_blank">NodeJS</a>
+
+Once is installed, open a command prompt and navigate to the ngworkshop directory.
+
+## Initial setup ##
+Run these commands  
+`git config --global url."https://".insteadOf git://  
+npm install -g grunt-cli bower  
+npm install`
+
+## Run the Server ##
+Run the command  
+`npm start`  
+Then open a browser to <a href="http://127.0.0.1:8080/" target="_blank">http://127.0.0.1:8080/</a>
+
+## Run the Tests ##
+Run the command  
+`npm test`
