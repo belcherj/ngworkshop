@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "preinstall": "echo If you have not run this command yet, please do so: npm install -g grunt-cli bower",
-	"postinstall": "bower install",
+    "preinstall": "echo If you have not run this command yet, please do so: npm install -g karma-cli grunt-cli bower",
+	  "postinstall": "bower install",
     "start": "node node-server.js",
     "test": "karma start test/karma.conf.js"
   },
