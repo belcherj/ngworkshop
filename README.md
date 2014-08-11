@@ -50,7 +50,7 @@ Once is installed, open a command prompt and navigate to the ngworkshop director
 ## Initial setup ##
 Run these commands  
 `git config --global url."https://".insteadOf git://  
-npm install -g grunt-cli bower  
+npm install -g grunt-cli bower karma-cli 
 npm install`
 
 ## Run the Server ##
