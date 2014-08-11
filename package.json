@@ -1,0 +1,39 @@
+{
+  "name": "ngworkshop",
+  "version": "0.0.0",
+  "description": "Angular Workshop",
+  "main": "node-server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "preinstall": "echo If you have not run this command yet, please do so: npm install -g karma-cli grunt-cli bower",
+	  "postinstall": "bower install",
+    "start": "node node-server.js",
+    "test": "karma start test/karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/belcherj/ngworkshop.git"
+  },
+  "keywords": [
+    "angular",
+    "workshop",
+    "demo",
+    "tutorial"
+  ],
+  "author": "https://github.com/belcherj",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/belcherj/ngworkshop/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "express": "~4.8.2",
+    "karma": "~0.12.21",
+    "jasmine-node": "1.14.3",
+    "jasmine-mocks": "0.0.2",
+    "karma-jasmine": "0.1.5",
+    "karma-phantomjs-launcher": "~0.1.4"
+  }
+}
